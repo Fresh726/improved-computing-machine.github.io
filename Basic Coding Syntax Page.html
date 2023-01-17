@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Basic Coding Syntax</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: blue;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: right;
+  width: 30%;
+  height: 650px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+article {
+  float: center;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 650px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+
+<header>
+  <h2>Basic Coding Syntax</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="C:\Users\gabin\OneDrive\Documents\Coding Project\Steps to make Website Page.html">
+	<img src="C:\Users\gabin\OneDrive\Documents\Coding Project\part 2 pic 1.png" alt="HTML tutorial" style="width:300px;height:150px;">
+	</a></li>
+      <li><a href="C:\Users\gabin\OneDrive\Documents\Coding Project\Basic Coding Syntax Page.html">
+	  <img src="C:\Users\gabin\OneDrive\Documents\Coding Project\part 2 pic 2.png" alt="HTML tutorial" style="width:300px;height:150px;">
+	  </a></li>
+      <li><a href="C:\Users\gabin\OneDrive\Documents\Coding Project\index.html">
+	  <img src="C:\Users\gabin\OneDrive\Documents\Coding Project\part 2 pic 3.png" alt="HTML tutorial" style="width:300px;height:150px;">
+	  </a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>The Syntax you need to start making a website</h1>
+    <p>There are thousands of possible syntaxs that you can use. Every single one does something else. I will show you some of the basic ones so that you can get started and know som of the basic syntax.</p>
+   <img src="C:\Users\gabin\OneDrive\Documents\Coding Project\Screenshot 2022-11-21 195657.png" alt="HTML tutorial" border="1" style="float:right;width:400px;height:200px;">
+  
+   <p>The image on the right shows you a couple things, first it shows you that before starting to type any code you have to set the doc type to HTML. This way the computer knows that your writing code for a HTML website. There is also the h1 tag. This is the header tag, it is used often as a title for a section on your website. The header tag does not have to be h1, it can be h2,h3,h4, etc. The number is the size of  the header the bigger the number the smaller the header. The second tag you can see is the p tag, this is the paragraph tag. This is used for any basic writing on your website.</p>
+ <img src="C:\Users\gabin\OneDrive\Documents\Coding Project\Screenshot 2022-11-21 200357.png" alt="HTML tutorial" border="1" style="float:bottom;width:580px;height:250px;">
+  <p>The second image shows you the syntax you need to know to be able to edit specfic tags like the header or paragraph tag, it also shows you how to add an image. The img src tag is the tag to add an image, between the quotation marks you put the image you want to add to the website. The alt tag is there incase your image doesn't load the text that you put in the alt tag will appear. The style tag can be used in many ways, you use this tag to change the color, change the size, or change where the thing is positioned.</p>
+  </article>
+</section>
+
+
+</html>
